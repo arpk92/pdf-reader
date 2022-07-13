@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fcf9ef "
+    tools:context=".Activities.Nightmode">
+
+    <LinearLayout
+        android:id="@+id/name_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/back"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:text="@string/app_name"
+            android:textColor="@color/white"
+            android:textSize="18dp" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/liner_ads"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/name_layout"
+        android:background="@color/burgundy"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Banner Ad. Sticky"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/liner"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+
+        android:layout_above="@id/liner_below"
+        android:layout_below="@id/liner_ads"
+        android:orientation="vertical">
+
+
+        <com.github.barteksc.pdfviewer.PDFView
+            android:id="@+id/pdfView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/liner_below"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="310dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:text="@string/hold_move_scrollbar_for_fast_scrolling"
+            android:textColor="@color/back" />
+
+
+        <ImageView
+            android:id="@+id/fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+
+            app:srcCompat="@drawable/b6" />
+
+
+    </LinearLayout>
+
+
+
+    <TextView
+        android:id="@+id/home_text"
+        android:layout_width="130dp"
+        android:layout_height="30dp"
+        android:background="@drawable/bg_text"
+        android:textColor="@color/white"
+        android:text="Go To Main Menu"
+        android:gravity="center"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:visibility="invisible"
+        android:layout_marginEnd="45dp"
+        android:layout_marginBottom="85dp"
+        />
+    <ImageView
+        android:id="@+id/home"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="80dp"
+        android:clickable="true"
+        android:visibility="invisible"
+        app:backgroundTint="@color/back"
+        app:srcCompat="@drawable/ho"
+        tools:ignore="SpeakableTextPresentCheck,DuplicateClickableBoundsCheck" />
+
+    <TextView
+        android:id="@+id/night_text"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:background="@drawable/bg_text"
+        android:textColor="@color/white"
+        android:text="Night Mode"
+        android:gravity="center"
+        android:layout_alignParentEnd="true"
+        android:visibility="invisible"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="155dp"
+        />
+
+    <ImageView
+        android:id="@+id/night"
+        android:layout_width="50dp"
+        android:visibility="invisible"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="150dp"
+        android:clickable="true"
+        app:backgroundTint="@color/back"
+        app:srcCompat="@drawable/nig"
+        tools:ignore="SpeakableTextPresentCheck,DuplicateClickableBoundsCheck" />
+
+    <TextView
+        android:id="@+id/horzan_text"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:background="@drawable/bg_text"
+        android:textColor="@color/white"
+        android:text="Day Mode"
+        android:visibility="invisible"
+        android:gravity="center"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="225dp"
+        />
+
+    <ImageView
+        android:id="@+id/horzan"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="220dp"
+        android:visibility="invisible"
+        android:clickable="true"
+        android:src="@drawable/day"
+        app:backgroundTint="@color/back"
+        tools:ignore="SpeakableTextPresentCheck,DuplicateClickableBoundsCheck" />
+
+</RelativeLayout>

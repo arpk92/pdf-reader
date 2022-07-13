@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">PDFApp</string>
+    <string name="night_mode">Night Mode</string>
+    <string name="paginated_mode">Paginated Mode</string>
+    <string name="scrolling_mode">Scrolling Mode</string>
+    <string name="vertical_mode">Vertical Mode</string>
+    <string name="home">Home</string>
+    <string name="banner_ads">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="hold_move_scrollbar_for_fast_scrolling">Move Scrollbar For Fast Scrolling</string>
+</resources>

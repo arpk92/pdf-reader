@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable/bg_all.xml" value="0.16770833333333332" />
+        <entry key="app/src/main/res/drawable/bg_home.xml" value="0.16770833333333332" />
+        <entry key="app/src/main/res/drawable/bg_text.xml" value="0.16770833333333332" />
+        <entry key="app/src/main/res/drawable/home_bg_button.xml" value="0.16770833333333332" />
+        <entry key="app/src/main/res/drawable/home_gradient_maths.xml" value="0.16770833333333332" />
+        <entry key="app/src/main/res/drawable/ic_add.xml" value="0.16770833333333332" />
+        <entry key="app/src/main/res/drawable/ic_bas_home.xml" value="0.16770833333333332" />
+        <entry key="app/src/main/res/drawable/ic_baseline_brightness_7_24.xml" value="0.16770833333333332" />
+        <entry key="app/src/main/res/drawable/ic_home.xml" value="0.16770833333333332" />
+        <entry key="app/src/main/res/drawable/ic_hori.xml" value="0.16770833333333332" />
+        <entry key="app/src/main/res/drawable/ic_scroll.xml" value="0.16770833333333332" />
+        <entry key="app/src/main/res/drawable/ic_ver.xml" value="0.16770833333333332" />
+        <entry key="app/src/main/res/drawable/rate_bg.xml" value="0.1388888888888889" />
+        <entry key="app/src/main/res/drawable/test.xml" value="0.1388888888888889" />
+        <entry key="app/src/main/res/layout/activity_about.xml" value="0.10960144927536232" />
+        <entry key="app/src/main/res/layout/activity_home.xml" value="0.18" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_message.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_nightmode.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_read_book.xml" value="0.18" />
+        <entry key="app/src/main/res/menu/menu_main.xml" value="0.1515625" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.18" />
+      </ProjectState>
+    </option>
+  </component>
+</project>
